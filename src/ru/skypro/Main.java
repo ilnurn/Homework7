@@ -63,6 +63,14 @@ public class Main {
         }
         System.out.println("Данные строки - " + number);
 
+        // Задание 7 (более простой вариант)
+        StringBuilder num = new StringBuilder();
+        for (int i = 0; i < number1.length(); i++) {
+            num.append(number1.charAt(i));
+            num.append(number2.charAt(i));
+        }
+        System.out.println("Данные строки - " + num);
+
         // Задание 8
         String alphabet = "aabccddefgghiijjkk";
         StringBuilder repeatedLetters = new StringBuilder(alphabet);
